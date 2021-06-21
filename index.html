@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="C:\Users\coden\OneDrive\Desktop\findPrimeNumbers\style.css" rel = "stylesheet" type="text/css" >
+<link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'> 
+<script src="C:\Users\coden\OneDrive\Desktop\findPrimeNumbers\script.js"></script> 
+  
+  <title>Find Primes & Composite Numbers</title>
+      <script type="text/javascript" src="functions.js"></script>
+  </head> 
+  <h1 id="intro">
+    Hi! I'm Clare Beany.
+  </h1>
+  <body>
+    <p class="bio"> I am looking for opinions on this controversial topic, is 1 a prime, composite, or neither number? <br> Your answer will display in list of prime and composite numbers below!</p>
+    <label>
+      <input id="Yes"
+            type="radio"
+             name="user-recommend"
+             value="Yes"
+             class="input-radio"
+             checked
+             />1 is prime</label>
+    <br> <br>
+    <label>
+      <input id="No"
+            type="radio"
+             name="user-recommend"
+             value="No"
+             class="input-radio"
+             checked
+             />1 is composite</label>
+    <br> <br>
+    <label>
+      <input id="IDK"
+            type="radio"
+             name="user-recommend"
+             value="IDK"
+             class="input-radio"
+             checked
+             />1 is neither</label>
+    <br> <br>
+     <div class="form-group">
+      <button type="submit" id="submit" class="submit-button" onclick="findPrimes()">Submit</button>
+  
+      </div>
+    </div>
+     <p class="bio"> The generated list of prime and composite numbers between 1 and 50 will display below. Your opinion on 1 will be included.
+    </p>
+      <div id="mainDiv">
+        <button id="myButton" onclick="findPrimes()">Generate List</button>
+  </div>
+  <p> Thank you for participating! </p>
+  </body>
+  
+</html>
